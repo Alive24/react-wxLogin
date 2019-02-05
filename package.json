@@ -1,0 +1,34 @@
+{
+  "name": "react-wxlogin",
+  "version": "1.0.0",
+  "description": "React component wrapper for WeChat OAUTH2 login based on wxLogin.js and toMatthew/vue-wxlogin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xct24/react-wxLogin.git"
+  },
+  "keywords": [
+    "WeChat",
+    "weixin",
+    "wxLogin",
+    "react"
+  ],
+  "author": "xct24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xct24/react-wxLogin/issues"
+  },
+  "homepage": "https://github.com/xct24/react-wxLogin#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "typescript": "^3.3.1"
+  }
+}
